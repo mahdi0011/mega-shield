@@ -39,8 +39,8 @@ local triggers = {
     "^[!/](arz)$"
   }
 local itriggers = {
-    "^[!/](arz) (fa)$",
-    "^[!/](arz) (en)$"
+    "^(arz) (fa)$",
+    "^(arz) (en)$"
   }
 return {
   action = action,

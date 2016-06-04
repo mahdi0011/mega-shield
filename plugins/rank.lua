@@ -9,10 +9,10 @@ local function run(msg, matches)
     send_document(get_receiver(msg), "./data/tmp/admin.webp", ok_cb, false)
       return "ادمینم هستی دیگه💛"
     elseif is_owner(msg) then
-    send_document(get_receiver(msg), "./data/tmp/owner.webp", ok_cb, false)
+    send_document(get_receiver(msg), "./data/tmp/leader.webp", ok_cb, false)
       return "مدیر اصلی گروه هستی دیگه💚"
     elseif is_momod(msg) then
-    send_document(get_receiver(msg), "./data/tmp/mod.webp", ok_cb, false)
+    send_document(get_receiver(msg), "./data/tmp/master.webp", ok_cb, false)
       return "مدیر گروه هستی دیگه💙"
     else
     send_document(get_receiver(msg), "./data/tmp/member.webp", ok_cb, false)

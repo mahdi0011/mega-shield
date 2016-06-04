@@ -258,7 +258,15 @@ function create_config( )
     "Time1",
     "weather",
     "rank",
-    "write"
+    "write",
+    "aparat",
+    "islamic_time",
+    "info",
+    "github",
+    "logo",
+    "mean",
+    "show",
+    "warn"
     },
     sudo_users = {24709501},--Sudo users
     moderation = {data = 'data/moderation.json'},

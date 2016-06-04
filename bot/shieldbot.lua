@@ -257,7 +257,10 @@ function create_config( )
     "secretcode",
     "Time1",
     "weather",
-    },
+    "arz",
+    "rank",
+    "write"
+    }
     sudo_users = {24709501},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[

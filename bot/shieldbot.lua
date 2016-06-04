@@ -260,12 +260,9 @@ function create_config( )
     "rank",
     "write",
     "aparat",
-    "islamic_time",
-    "info",
     "github",
     "logo",
     "mean",
-    "show",
     "warn"
     },
     sudo_users = {24709501},--Sudo users

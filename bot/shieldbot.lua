@@ -257,7 +257,6 @@ function create_config( )
     "secretcode",
     "Time1",
     "weather",
-    "arz",
     "rank",
     "write"
     },

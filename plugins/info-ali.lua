@@ -26,26 +26,26 @@ local function callback_reply(extra, success, result)
 userrank = "Member"
 if tonumber(result.from.id) == 122774063 then
 userrank = "Master ⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/master.webp", ok_cb, false)
+send_document(org_chat_id,"djmehdi/stickers/master.webp", ok_cb, false)
 elseif is_sudo(result) then
 userrank = "Sudo ⭐⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/sudo.webp", ok_cb, false)
+send_document(org_chat_id,"djmehdi/stickers/sudo.webp", ok_cb, false)
 elseif is_admin2(result.from.id) then
 userrank = "Admin ⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/admin.webp", ok_cb, false)
+send_document(org_chat_id,"djmehdi/stickers/admin.webp", ok_cb, false)
 elseif is_owner2(result.from.id, result.to.id) then
 userrank = "Leader ⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/leader.webp", ok_cb, false)
+send_document(org_chat_id,"djmehdi/stickers/leader.webp", ok_cb, false)
 elseif is_momod2(result.from.id, result.to.id) then
 userrank = "Moderator ⭐"
-send_document(org_chat_id,"umbrella/stickers/mod.webp", ok_cb, false)
+send_document(org_chat_id,"djmehdi/stickers/mod.webp", ok_cb, false)
 elseif tonumber(result.from.id) == tonumber(our_id) then
 userrank = "Umbrella-Cp ⭐⭐⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/umb.webp", ok_cb, false)
+send_document(org_chat_id,"djmehdi/stickers/umb.webp", ok_cb, false)
 elseif result.from.username then
 if string.sub(result.from.username:lower(), -3) == "bot" then
 userrank = "API Bot"
-send_document(org_chat_id,"umbrella/stickers/api.webp", ok_cb, false)
+send_document(org_chat_id,"djmehdi/stickers/api.webp", ok_cb, false)
 end
 end
 --custom rank ------------------------------------------------------------------------------------------------
@@ -196,26 +196,26 @@ end
 --icon & rank ------------------------------------------------------------------------------------------------
 if tonumber(result.id) == 122774063 then
 userrank = "Master ⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/master.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/master.webp", ok_cb, false)
 elseif is_sudo(result) then
 userrank = "Sudo ⭐⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/sudo.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/sudo.webp", ok_cb, false)
 elseif is_admin2(result.id) then
 userrank = "Admin ⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/admin.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/admin.webp", ok_cb, false)
 elseif is_owner2(result.id, extra.chat2) then
 userrank = "Leader ⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/leader.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/leader.webp", ok_cb, false)
 elseif is_momod2(result.id, extra.chat2) then
 userrank = "Moderator ⭐"
-send_document(org_chat_id,"umbrella/stickers/mod.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/mod.webp", ok_cb, false)
 elseif tonumber(result.id) == tonumber(our_id) then
 userrank = "Umbrella-Cp ⭐⭐⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/umb.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/umb.webp", ok_cb, false)
 elseif result.from.username then
 if string.sub(result.from.username:lower(), -3) == "bot" then
 userrank = "API Bot"
-send_document(org_chat_id,"umbrella/stickers/api.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/api.webp", ok_cb, false)
 else
 userrank = "Member"
 end
@@ -292,26 +292,26 @@ end
 --icon & rank ------------------------------------------------------------------------------------------------
 if tonumber(result.id) == 122774063 then
 userrank = "Master ⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/master.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/master.webp", ok_cb, false)
 elseif is_sudo(result) then
 userrank = "Sudo ⭐⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/sudo.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/sudo.webp", ok_cb, false)
 elseif is_admin2(result.id) then
 userrank = "Admin ⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/admin.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/admin.webp", ok_cb, false)
 elseif is_owner2(result.id, extra.chat2) then
 userrank = "Leader ⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/leader.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/leader.webp", ok_cb, false)
 elseif is_momod2(result.id, extra.chat2) then
 userrank = "Moderator ⭐"
-send_document(org_chat_id,"umbrella/stickers/mod.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/mod.webp", ok_cb, false)
 elseif tonumber(result.id) == tonumber(our_id) then
 userrank = "Umbrella-Cp ⭐⭐⭐⭐⭐⭐"
-send_document(org_chat_id,"umbrella/stickers/umb.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/umb.webp", ok_cb, false)
 elseif result.from.username then
 if string.sub(result.from.username:lower(), -3) == "bot" then
 userrank = "API Bot"
-send_document(org_chat_id,"umbrella/stickers/api.webp", ok_cb, false)
+send_document(org_chat_id,"data/tmp/api.webp", ok_cb, false)
 else
 userrank = "Member"
 end
@@ -471,19 +471,19 @@ user_info.msgs = tonumber(redis:get(um_hash) or 0)
 --icon & rank ------------------------------------------------------------------------------------------------
 if tonumber(msg.from.id) == 122774063 then
 userrank = "Master ⭐⭐⭐⭐"
-send_document("chat#id"..msg.to.id,"umbrella/stickers/master.webp", ok_cb, false)
+send_document("chat#id"..msg.to.id,"data/tmp/master.webp", ok_cb, false)
 elseif is_sudo(msg) then
 userrank = "Sudo ⭐⭐⭐⭐⭐"
-send_document("chat#id"..msg.to.id,"umbrella/stickers/sudo.webp", ok_cb, false)
+send_document("chat#id"..msg.to.id,"data/tmp/sudo.webp", ok_cb, false)
 elseif is_admin(msg) then
 userrank = "Admin ⭐⭐⭐"
-send_document("chat#id"..msg.to.id,"umbrella/stickers/admin.webp", ok_cb, false)
+send_document("chat#id"..msg.to.id,"data/tmp/admin.webp", ok_cb, false)
 elseif is_owner(msg) then
 userrank = "Leader ⭐⭐"
-send_document("chat#id"..msg.to.id,"umbrella/stickers/leader.webp", ok_cb, false)
+send_document("chat#id"..msg.to.id,"data/tmp/leader.webp", ok_cb, false)
 elseif is_momod(msg) then
 userrank = "Moderator ⭐"
-send_document("chat#id"..msg.to.id,"umbrella/stickers/mod.webp", ok_cb, false)
+send_document("chat#id"..msg.to.id,"data/tmp/mod.webp", ok_cb, false)
 else
 userrank = "Member"
 end
@@ -542,18 +542,18 @@ user = {
 "info (reply): اطلاعات دیگران",
 },
 sudo = {
-"/info (id) (txt) : اعطای مقام",
-"/infodel : حذف مقام",
+"!info (id) (txt) : اعطای مقام",
+"!infodel : حذف مقام",
 },
 },
 patterns = {
-"^(/infodel) (.*)$",
-"^(/infodel)$",
-"^(/info) ([^%s]+) (.*)$",
-"^(/info) (.*)$",
-"^([Ii]nfo) (.*)$",
-"^(info)$",
-"^(Info)$",
+"^(!infodel) (.*)$",
+"^(!infodel)$",
+"^(!info) ([^%s]+) (.*)$",
+"^(!info) (.*)$",
+"^(![Ii]nfo) (.*)$",
+"^(!info)$",
+"^(!Info)$",
 },
 run = run,
 }

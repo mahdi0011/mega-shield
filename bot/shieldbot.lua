@@ -249,7 +249,17 @@ function create_config( )
     "set_type",
     "welcome",
     "sh",
-    "serverinfo"
+    "serverinfo",
+    "6short",
+    "backup",
+    "boobs",
+    "chat",
+    "email",
+    "info-ali",
+    "secretcode",
+    "Time1",
+    "weather",
+    "webconvert"
     },
     sudo_users = {24709501},--Sudo users
     moderation = {data = 'data/moderation.json'},

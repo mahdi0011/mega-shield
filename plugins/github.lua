@@ -3,7 +3,7 @@ local function run(msg, matches)
     local dat = https.request("https://api.github.com/repos/"..matches[2])
     local jdat = JSON.decode(dat)
     if jdat.message then
-      return "آدرس وارد شده صحیح نیست به این صورت وارد کنید:\ngithub username/project\ngithub mohamadkhoshnava/idbot"
+      return "آدرس وارد شده صحیح نیست به این صورت وارد کنید:\ngithub username/project\ngithub seedteam/teleseed"
       end
     local base = "curl 'https://codeload.github.com/"..matches[2].."/zip/master'"
     local data = io.popen(base):read('*all')
@@ -15,7 +15,7 @@ local function run(msg, matches)
     local dat = https.request("https://api.github.com/repos/"..matches[2])
     local jdat = JSON.decode(dat)
     if jdat.message then
-      return "آدرس وارد شده صحیح نیست به این صورت وارد کنید:\ngithub username/project\ngithub mohamad.khoshnava/idbot"
+      return "آدرس وارد شده صحیح نیست به این صورت وارد کنید:\ngithub username/project\ngithub seedteam/teleseed"
       end
     local res = https.request(jdat.owner.url)
     local jres = JSON.decode(res)
@@ -51,7 +51,7 @@ end
 
 return {
   description = "Github Informations",
-  usagehtm = '<tr><td align="center">github پروژه/اکانت</td><td align="right">آدرس گیتهاب را به صورت پروژه/اکانت وارد کنید<br>مثال: github shayansoft/umbrella</td></tr>'
+  usagehtm = '<tr><td align="center">github پروژه/اکانت</td><td align="right">آدرس گیتهاب را به صورت پروژه/اکانت وارد کنید<br>مثال: github seedteam/teleseed</td></tr>'
   ..'<tr><td align="center">github> پروژه/اکانت</td><td align="right">با استفاده از این دستور، میتوانید سورس پروژه ی مورد نظر را دانلود کنید. آدرس پروژه را مثل دستور بالا وارد کنید</td></tr>',
   usage = {
     "github (account/proje) : مشخصات پروژه و اکانت",

@@ -1541,8 +1541,6 @@ elseif get_cmd == "setadmin" then
  end
 send_large_msg(receiver, text)
 end
---End non-channel_invite username actions
---'Set supergroup photo' function
 local function set_supergroup_photo(msg, success, result)
   local data = load_data(_config.moderation.data)
   if not data[tostring(msg.to.id)] then
@@ -1563,7 +1561,6 @@ local function set_supergroup_photo(msg, success, result)
     send_large_msg(receiver, 'Failed, please try again!', ok_cb, false)
   end
 end
-
 --Run function
 local function run(msg, matches)
 	if msg.to.type == 'chat' then

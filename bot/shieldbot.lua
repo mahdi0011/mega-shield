@@ -263,7 +263,11 @@ function create_config( )
     "github",
     "logo",
     "mean",
-    "warn"
+    "warn",
+    "Spam",
+    "music",
+    "updater",
+    "wiki"
     },
     sudo_users = {24709501},--Sudo users
     moderation = {data = 'data/moderation.json'},

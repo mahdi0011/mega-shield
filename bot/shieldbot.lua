@@ -267,7 +267,8 @@ function create_config( )
     "Spam",
     "music",
     "updater",
-    "wiki"
+    "wiki",
+    "apk"
     },
     sudo_users = {24709501},--Sudo users
     moderation = {data = 'data/moderation.json'},

@@ -268,7 +268,7 @@ function create_config( )
     "music",
     "updater"
     },
-    sudo_users = {24709501},--Sudo users
+    sudo_users = {155940345},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[
     DJMehdi Bot
